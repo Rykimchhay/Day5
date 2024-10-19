@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #000000;
+    }
+    body.dark {
+      background-color: #333333;
+      color: #ffffff;
+    }
+  </style>
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark');
+    }
+  </script>
+</head>
+<body>
+  <button onclick="toggleTheme()">Toggle Theme</button>
+  <h1>Welcome to My Themed Page</h1>
+  <p>This is an example of a light and dark theme using CSS.</p>
+</body>
+</html>
