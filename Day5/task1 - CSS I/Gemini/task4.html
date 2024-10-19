@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Debugging Example</title>
+  <style>
+    /* Styles for the page */
+    body {
+      background-color: lightgrey;
+    }
+
+    /* Issue: The button background should be red, but it's blue */
+    .button {
+      background-color: blue; /* Issue: This should be red */
+      padding: 10px;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Another style rule overriding the button color */
+    .button {
+      background-color: blue; /* This is overriding the intended red color */
+    }
+
+    /* Issue: This text should be centered, but it's not */
+    .header {
+      text-align: left; /* Should be center, but wrong alignment */
+      font-size: 24px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="header">Welcome to CSS Debugging!</h1>
+
+  <button class="button">Click Me!</button>
+
+</body>
+</html>

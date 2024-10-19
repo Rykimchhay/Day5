@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Variables Example</title>
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --font-family: Arial, sans-serif;
+            --font-size: 16px;
+        }
+
+        body {
+            color: var(--primary-color);
+            font-family: var(--font-family);
+            font-size: var(--font-size);
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph using the defined variables.</p>
+</body>
+</html>

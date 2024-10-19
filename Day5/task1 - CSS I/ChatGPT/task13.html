@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root {
+            --main-color: #3498db; /* CSS Variable */
+            --padding: 15px; /* CSS Variable */
+        }
+        body {
+            background-color: var(--main-color);
+            padding: var(--padding);
+        }
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Using CSS Variables</h1>
+    <p>This demonstrates how to use CSS variables in styling.</p>
+</body>
+</html>
